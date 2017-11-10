@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ll_customer_selected" android:state_pressed="true" />
+    <!-- focused state -->
+    <item android:drawable="@drawable/ll_customer_selected" android:state_focused="true" />
+
+    <!-- default state -->
+    <item android:drawable="@drawable/ll_customer_normal" />
+
+</selector>

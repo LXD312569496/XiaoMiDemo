@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/ll_selector"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/app_iv_icon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/app_tv_company"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="北京字节跳动网络技术有限公司"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/app_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="今日头条"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RatingBar
+                android:id="@+id/app_rating_bar"
+                style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/app_card_view"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp">
+
+            <Button
+                android:id="@+id/app_btn_download"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_selector"
+                android:text="下载"
+                android:visibility="visible" />
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/app_tv_installed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:text="已安装"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/include_line_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_main_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_main_refresh"
+        android:title="刷新"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_main_download"
+        android:title="下载队列"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menu_main_setting"
+        android:title="设置"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_main_login"
+        android:title="登录"
+        app:showAsAction="withText" />
+</menu>

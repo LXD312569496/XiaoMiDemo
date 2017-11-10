@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/item_downloading_iv_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_downloading_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="今日头条"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/item_downloading_progress_bar"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_downloading_tv_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="14.39MB" />
+
+            <TextView
+                android:id="@+id/item_downloading_tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/item_downloading_btn_donwload"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_selector"
+        android:text="开始" />
+</LinearLayout>
