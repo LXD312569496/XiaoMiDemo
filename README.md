@@ -1,5 +1,7 @@
 ## XiaoMiDemo
 ### 仿小米应用商店
+项目地址：[https://github.com/LXD312569496/XiaoMiDemo](https://github.com/LXD312569496/XiaoMiDemo)</br>
+简书文章地址：[http://www.jianshu.com/p/1f5e06f99d83](http://www.jianshu.com/p/1f5e06f99d83)
 ## 屏幕截图
 <p>
 <img width="288" height="500" src="https://github.com/LXD312569496/XiaoMiDemo/blob/master/screenShot/featured.jpg"/>
