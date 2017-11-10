@@ -13,6 +13,7 @@
 </p>
 
 ## 应用到的第三方库
+* [Jsoup](https://github.com/jhy/jsoup)
 * [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
 * [Butterknife](https://github.com/JakeWharton/butterknife)
 * [Glide](https://github.com/bumptech/glide)
