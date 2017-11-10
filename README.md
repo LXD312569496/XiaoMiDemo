@@ -13,12 +13,12 @@
 </p>
 
 ## 应用到的第三方库
-* FlycoTabLayout
-* Butterknife
-* Glide
-* Retrofit
-* okhttp-OkGo
-* SmartRefreshLayout
+* [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
+* [Butterknife](https://github.com/JakeWharton/butterknife)
+* [Glide](https://github.com/bumptech/glide)
+* [Retrofit](https://github.com/square/retrofit)
+* [okhttp-OkGo](https://github.com/jeasonlzy/okhttp-OkGo)
+* [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 
 ## 日志
 ### 2017.11.10
